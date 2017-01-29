@@ -106,8 +106,8 @@ well.
 
 #+BEGIN_SRC emacs-lisp
   (setq-default dotspacemacs-configuration-layers
-                '(auto-completion
-                  (haskell :variables haskell-completion-backend 'intero)))
+                auto-completion
+                (haskell :variables haskell-completion-backend 'intero))
 #+END_SRC
 
 *** =company-ghci=
